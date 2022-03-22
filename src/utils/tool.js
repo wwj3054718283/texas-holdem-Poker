@@ -19,7 +19,7 @@ console.readLine = function (msg) {
             // console.log("RL:",rl);
         })
     }).finally(() => {
-        rl.close()
+        // rl.close()
         // console.log("RL:",rl);
     })
 }
@@ -58,12 +58,23 @@ console.readNum2 = async function (msg) {
 
 
 let funt = async () => {
-    let arr = []
-    for (let i = 0; i < 10; i++) {
-        let a =  await console.readLine(`输入${i+1}值:`)  
-        arr.push(a) 
-    }
-    console.log(arr);
+    // let arr = []
+    // for (let i = 0; i < 3; i++) {
+    //     let a =  await console.readNum(`输入${i+1}值:`)  
+    //     arr.push(a) 
+    // }
+    // console.log(arr);
+
+
+    //    let playerCount = await console.readLine('请输入参与游戏玩家数量(2-10):')
+    //     const len = playerCount.length
+    // 2.2 初始化玩家代号
+    // let playName = ''
+    // 循环便利输入 所有玩家 代号
+    // for (let i = 0; i < 3; i++) {
+    //     let playName = await console.readLine(`请输入${i + 1}号玩家代号:`)
+    //     console.log(`${i + 1}号玩家代号:${playName}`);
+    // }
 }
 funt()
 

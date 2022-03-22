@@ -17,18 +17,22 @@ export default class GameView {
     async initPlayers() {
         // 2.1 初始化玩家数量
         this.playerCount = await console.readLine('请输入参与游戏玩家数量(2-10):')
-        const len = this.playerCount.length
+        const len = this.playerCount
         // 2.2 初始化玩家代号
         let playName = ''
         // 循环便利输入 所有玩家 代号
         for (let i = 0; i < len; i++) {
             playName = await console.readLine(`请输入${i+1}号玩家代号:`)
-            console.log(`${i+1}号玩家代号:${playName}`);
         }
+    }
+    
+    // 3.显示用户 指定牌
+    showAPlayerCard(){
+        // 
     }
 }
 
-let g = new GameView({ poker: 'Heart' })
-g.initView()
-g.initPlayers()
+// let g = new GameView({ poker: 'Heart' })
+// g.initView()
+// g.initPlayers()
 // console.log(g)

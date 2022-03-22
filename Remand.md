@@ -2,7 +2,10 @@
 
 ## 1、规则
 
-模拟**德州扑克**，玩家人数3-5人，通过计算牌力的出胜利者
+模拟**德州扑克**，玩家人数2-10人
+裁判取出5张公告牌
+玩家每人2张手牌
+通过计算牌力的出胜利者
 
 ## 2、牌力大小排序（从大到小）
 
@@ -117,6 +120,7 @@ src
   ![image-20220319002520462](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20220319002520462.png)
 
   ![image-20220319002531347](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20220319002531347.png)
+# 六、量化牌力
 
   
 
