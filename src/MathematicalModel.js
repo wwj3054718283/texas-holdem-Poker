@@ -6,6 +6,11 @@ export default class MathModel{
     
     CardListType(cardlist){
         console.log(cardlist);
+        let arrCards = []
+        cardlist.forEach(c => {
+            arrCards.push(c.cardPrice)
+        });
+        console.log(arrCards);
     }
 }
 
